@@ -246,10 +246,10 @@ const Portfolio = () => {
 									<span>TailwindCSS</span>
 								</div>
 								<div className="flex gap-4">
-									<a href="https://github.com/yourname/cafe-site" target="_blank" rel="noopener noreferrer">
+									<a href="https://github.com/chez-nagisa/Portfolio" target="_blank" rel="noopener noreferrer">
 										<Github className="w-5 h-5 text-navy hover:opacity-70 transition" />
 									</a>
-									<a href="https://yourcafe.com" target="_blank" rel="noopener noreferrer">
+									<a href="https://portfolio-nagisa-hara.vercel.app/" target="_blank" rel="noopener noreferrer">
 										<ExternalLink className="w-5 h-5 text-navy hover:opacity-70 transition" />
 									</a>
 								</div>
