@@ -17,7 +17,7 @@ import {
 
 
 import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Instagram, Mail, ExternalLink, Code, Palette, Database } from 'lucide-react';
+import { Github, Linkedin, Instagram, Mail, ExternalLink } from 'lucide-react';
 
 const Portfolio = () => {
 	const [activeSection, setActiveSection] = useState('home');
@@ -106,18 +106,15 @@ const Portfolio = () => {
 						About Me
 					</h2>
 
-					{/* 写真＋文章の2カラム */}
 					<div className="grid md:grid-cols-2 gap-12 items-center mb-12">
-						{/* 左：プロフィール写真 */}
 						<div className="flex justify-center">
 							<img
-								src="/my_pic.jpg" // publicフォルダ内に画像を置いた場合のパス
+								src="/my_pic.jpg"
 								alt="Profile"
 								className="rounded-lg w-64 h-64 object-cover shadow-lg"
 							/>
 						</div>
 
-						{/* 右：自己紹介文 */}
 						<div>
 							<p className="text-lg leading-relaxed font-garamond text-navy">
 								I am majoring in French Studies at Sophia University while studying engineering independently and learning at 42 Tokyo. I aim to become a global web creator, capable of working and contributing internationally.
